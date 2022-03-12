@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reg-form.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
-<body>
-    <p>hsbdhh</p>
-    
+<body class="body">
+    <form class="form">
+        
+        <p class="header"><b>&#9997;Registration Form&#9997;</b></p>
+        First Name :<br>
+        <input type="text" name="fname" autocomplete="given-name" size="20"><br /> <br />   
+        Last Name :<br>
+        <input type="text" name="lname" autocomplete="given-name" size="20"><br /><br />
+        Father Name:<br>
+        <input type="text" name="mname" autocomplete="given-name" size="20"><br /><br />
+        Email:<br>
+        <input type="email" name="myemail" placeholder="abcd@gmail.com" size="20" required/><br /><br />
+        Phoen Number:<br><input type="number" name="mynum" maxlength="12" placeholder="+92123456789" size="20"><br><br>
+        <h>Gender:</h>
+        Male<input type="radio" name="gender" />
+        Female<input type="radio" name="gender" />
+        Other<input type="radio" name="gender"><br /><br />
+        DOB:<br>
+        <input type="date" name="dob"><br><br>
+        <label for="cou">Course:</label><br>
+        <Select name="course" id="cou">
+         <option value="wb"  >Web Development</option>             
+         <option value="and" >Andriod Development</option>             
+         <option value="dm" >Digital Marketing</option>             
+         <option value="ui" >UI/UX</option>             
+         <option value="cyber-sec" >Cyber Security</option>  
+        </Select><br /><br />
+        <label for="edu">Education:</label><br>
+        <Select name="education" id="edu">
+         <option value="mat"  >Matric</option>             
+         <option value="int" >Intermediate</option>             
+         <option value="bsc/ba" >B.S.C/B.A</option>             
+         <option value="bs" >BS</option>             
+         <option value="ms/mphill"> MS/M.Phill </option>  
+        </Select><br /><br />
+        Address:<br>
+        <input type="text" name="myadd"><br><br>
+        Upload Documents:<br>
+        <input type="file" name="myfile"><br><br>
+        Password:<br>
+        <input type="password" name="pass" maxlength="8"><br><br>
+        Re-Type Password:<br>
+        <input type="text" name="repass" maxlength="8"><br><br>
+        <input type="reset"  name="reset" class="reset">
+        <input type="submit" name="mybtn" class="btn">
+        
+    </form>
+   
 </body>
 </html>
