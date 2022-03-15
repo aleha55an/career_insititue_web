@@ -1,0 +1,51 @@
+.H {
+    text-align: center;
+    font-size: 70px;
+}
+.H1{
+    font-size: 45px;
+    margin-left: 10px;
+}
+.Img1{
+    float: right;
+    width: 300;
+    height: 400;
+
+}
+.Para{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 370px;
+}
+.H2{
+    font-size: 35px;
+    margin-left: 10px;
+}
+.Para1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.Img2{
+    width: 300;
+    height: 400;
+    margin-left: 100px;
+
+}
+.H3{
+    font-size: 35px;
+    margin-left: 10px;
+}
+.Para2{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 250px;
+}
+.Img3{
+    width: 300;
+    height: 400;
+    margin-left: 250px;
+
+}
+.Tab{
+    font-size: 20px;
+}
