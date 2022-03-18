@@ -3,13 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.form h1{
-    text-align: center;
-    font-size: 35px;
-    color: black;
-    background-color:;
-    width:fit-content;
-}
+
 .form{
     background-color:steelblue;
     margin-left: 33%;
@@ -20,6 +14,13 @@
     margin-bottom: 2%;
     color: white;
     
+}
+.form h1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width:fit-content;
+
 }
 #Add{
     size: 500px !important;
