@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link rel="stylesheet" href="form.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body >
-    <h1 >Student registration form</h1>
-    <hr>
-    <form>
+</head >
+<body class="struct" >
+   
+    <form class="form">
+        <h1 >Student registration form</h1>
        First Name :<br>
        <input type="text" name="fname" autocomplete="given-name" ><br /> <br />   
        Last Name :<br>
        <input type="text" name="lname" autocomplete="given-name" ><br /><br />
+       
+       Email:<br>
+       <input type="email" name="myemail" placeholder="abcd@gmail.com" required/><br /><br />
+       Cell Number:<br><input type="number" name="mynum" maxlength="12" placeholder="+92123456789"><br><br>
+       Address:<br>
+       <textarea name="myadd" id="#Add" cols="32" rows="3"></textarea><br><br>
+       <h>Gender:</h>
+       Male<input type="radio" name="gender" id="gen1"/>
+       Female<input type="radio" name="gender" id="gen2" />
+       Other<input type="radio" name="gender" id="gen3"><br /><br />
        Course:
        <Select name="course" >
         <option value="IT" >IT</option>             
@@ -23,21 +33,24 @@
         <option value="LAW" >LAW</option>             
         <option value="DPT" >DPT</option>  
        </Select><br /><br />
-       Email:<br>
-       <input type="email" name="myemail" placeholder="abcd@gmail.com" required/><br /><br />
-       <h>Gender:</h>
-       Male<input type="radio" name="gender" />
-       Female<input type="radio" name="gender" />
-       Other<input type="radio" name="gender"><br /><br />
-       Cell Number:<br><input type="number" name="mynum" maxlength="12" placeholder="+92123456789"><br><br>
-       Address:<br>
-       <input type="text" name="myadd"><br><br>
+     
+       <label for="edu">Education:</label><br>
+       <Select name="education" id="edu">
+        <option value="mat"  >Matric</option>             
+        <option value="int" >Intermediate</option>             
+        <option value="bsc/ba" >B.S.C/B.A</option>             
+        <option value="bs" >BS</option>             
+        <option value="ms/mphill"> MS/M.Phill </option>  
+       </Select><br /><br />
+       Upload Documents:<br>
+       <input type="file" name="myfile"><br><br>
        Password:<br>
        <input type="password" name="pass" maxlength="12"><br><br>
        Re-Type Password:<br>
        <input type="text" name="pass" maxlength="8"><br><br>
-       <input type="submit">
-       <input type="reset">
+       <hr id="hline">
+       <input type="submit" id="sub">
+       <input type="reset" id="re">
 
 
        

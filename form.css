@@ -1,0 +1,47 @@
+.struct{
+    background-image: url('https://images.unsplash.com/photo-1490713230272-bf236b61ad43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form h1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    background-color:;
+    width:fit-content;
+}
+.form{
+    background-color:steelblue;
+    margin-left: 33%;
+    margin-right:33%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    
+}
+#Add{
+    size: 500px !important;
+}
+#hline{
+    margin-right: 20%;
+}
+input{
+    width: 60%;
+}
+#gen1{
+    width: 4% !important;
+}
+#gen2{
+    width: 4% !important;
+}
+#gen3{
+    width: 4% !important;
+}
+#sub{
+    width: 30%;
+}
+#re{
+    width: 30%;
+}
