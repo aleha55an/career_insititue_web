@@ -33,3 +33,21 @@
 width: 100%;    
     
 }
+
+.container{
+    margin-top: 30px;
+    background-color:darkblue;
+    position: absolute;
+    width: 50%;
+    border-radius: 40px ;
+    border:5px solid black;
+    
+}
+#list2{
+    color: white;
+    font-size:large;
+    list-style: none;
+    justify-content:  left;
+    font: bold; 
+   
+}
