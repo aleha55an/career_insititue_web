@@ -31,5 +31,9 @@
 }
 .bottom-container img{
 width: 100%;    
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.exp{
+    font-size: x-large;
 }
