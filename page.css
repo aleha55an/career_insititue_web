@@ -1,0 +1,140 @@
+
+.top-container{
+    display: flex;
+    margin-top: 0%;
+}
+
+.top-left-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 1%;
+}
+.top-right-container{
+    display: flex;
+    justify-content: right;
+    margin-left: 35%;
+}
+#cur{
+    border: none;
+}
+#lang{
+    border: none;
+    padding-left: 50px;
+}
+#vline{
+    margin-left: 30%;
+    margin-top: 7%;
+}
+#list{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  left;
+    
+   
+}
+#list li{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-below-container{
+    display: flex;
+    margin-top: 0%;
+    margin-top: 2%;
+    width: 100%;
+}
+.top-below-left-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 1%;
+   width: 15%;
+}
+.top-below-middle-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 10%;
+    border: 1px  red solid;
+    width: 30%;
+    height: 5vh;
+   margin-top: 20px;
+}
+.top-below-right-container{
+    justify-content: left;
+    display: flex;
+    margin-left: 5%;
+   
+}
+#find{
+   border: none;
+    width: 250px;
+}
+#contact{
+    padding-left: 20%;
+}
+#cat{
+    border: none;
+}
+#wish{
+    padding-left: 15%;
+    font-size: large;
+}
+#comp{
+    padding-left: 15%;
+    font-size: large;
+}
+#cart{
+    padding-left: 15%;
+    font-size: large;
+}
+.inner-container{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.inner-left-container{
+    width: 20%;
+    display: flex;
+    margin-left: 2%;
+}
+#categories{
+    height: 8vh;
+    border: none;
+    background-color: rgb(243, 44, 44);
+    width: 100%;
+    color: white;
+    font: bolder;
+}
+#inner-list{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  left;
+    color: white;
+    margin-left: 0px;
+   
+}
+#inner-list li{
+    padding-right: 20px;
+
+}
+.inner-middle-container{
+    display: flex;
+    width: 50%;
+} 
+ .inner-right-container{
+    display: flex;
+    width: 20%;
+}
+#inner-list2{
+    display: flex;
+    font-size:large;
+    list-style: none;
+    justify-content:  right;
+    color: white;
+   
+    
+}
+#inner-list2 li{
+    padding-left: 10px;
+   text-align: right;
+}
