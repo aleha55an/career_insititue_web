@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .container{
+      background-color: aqua;
+      width: 40%;
+      height: 30vh;
+      transition: all 1s ;
+ }
+ .container:hover{
+    width: 60%;
+    height: 60vh;
+ }
+
+ h1:hover{
+    
+     color: brown;
+ }
+ h1:hover ~ .container{
+      background-color: black;
+ }
+ ul{
+     display: none;
+ }
+ .drop-down:hover~ul{
+     display: block;
+     background-color: blue;
+     transition-duration: 1s ;
+ }
+ li:hover{
+     transition: all 2s;
+ }
+ 
+</style>
+<body>
+    <div class="container">
+     <h1>Hello</h1>
+    </div>
+
+    <button class="drop-down">Hover me</button>
+    
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+
+</body>
+</html>
