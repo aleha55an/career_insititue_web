@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="../css/page.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      
     <title>Page</title>
 </head>
 <body>
@@ -43,7 +46,10 @@
                 <li>Blog</li>
                <li>Contact Us</li>
                 <li>My Account</li>
-                <li>Sign in/Register</li>
+                <li id="account">
+                    <i id="act" class="material-icons">account_circle</i>
+                    Sign in/Register
+                </li>
                 </ul>
         </div>
     </div>
@@ -80,12 +86,20 @@
     <section>
         <div class="inner-container">
             <div class="inner-left-container">
+           
                 <select name="categories" id="categories" >
                     <option value="allcategories">☰&nbsp; Browse categories</option>
                     <option value="fash">Fashion</option>
                     <option value="H & G">Home & Garden</option>
                     <option value="elec">Electronics</option>
                     <option value="furniture">furniture</option>
+                    <option value="Health & Beauty">Health & Beauty</option>
+                    <option value="Gift">Gift</option>
+                    <option value="Game & Toys">Game & Toys</option>
+                    <option value="Cooking & Food">Cooking & Food</option>
+                    <option value="Smart Phone">Smart Phone</option>
+                    <option value="Cameras">Cameras</option>
+                    <option value="Accessories">Accessories</option>
                     </select>
                 </div>
                 <div class="inner-middle-container">

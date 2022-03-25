@@ -12,7 +12,8 @@
 .top-right-container{
     display: flex;
     justify-content: right;
-    margin-left: 40%;
+    margin-left: 38%;
+    font-size: small;
 }
 #cur{
     border: none;
@@ -94,16 +95,38 @@
 }
 .inner-left-container{
     width: 20%;
-    display: flex;
+    display:block;
     margin-left: 2%;
 }
+.inner-left-container button {
+    background-color: rgb(243, 44, 44);
+    width: 100%;
+    color: white;
+    border: none;
+    font: bolder;
+    
+}
+#account{
+    display: flex;
+}
+#act{
+    margin-right: 6px;
+}
 #categories{
-    height: 8vh;
+    height: 9vh;
     border: none;
     background-color: rgb(243, 44, 44);
     width: 100%;
     color: white;
-    font: bolder;
+    font: bold;
+    font-size: medium;
+}
+#categories option{
+    background-color: white;
+    color: black;
+}
+#categories option:nth-child(1){
+    display: none;
 }
 #inner-list{
     display: flex;
