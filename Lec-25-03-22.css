@@ -1,0 +1,63 @@
+:root{
+    --bgcolor:rgb(235, 82, 82);
+    --color:white;
+
+}
+.container{
+    background-color: var(--bgcolor);
+    color: var(--color);
+    position: relative;
+    height: 10vh;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+.container::before{
+    content:"Start";
+    color: var(--color);
+    justify-content: left;
+    padding-right: 5%;
+    /* transition: all 2s; */
+    /* display: none; */
+    transition: all 2s linear;
+}
+.container::after{
+    content:"End";
+    color: var(--color);
+    justify-content: left;
+    position: absolute;
+    padding-left: 5%;padding-right: 5%;
+    /* display: none; */
+    transition: all 2s linear;
+    /* transition: all 2s linear; */
+}
+.container:hover::before{
+  display: inline;
+  font-size:40px;
+  background-color: aqua;
+  /* transition: all 2s linear; */
+}
+.container:hover::after{
+    display: inline;
+    background-color: aqua;
+    font-size:40px;
+    /* transition: all 2s linear; */
+}
+.inner-container{
+    background-color: aqua;
+}
+#list li{
+    background-color: teal;
+}
+#list li:nth-child(1){
+    background-color: var(--bgcolor);
+
+}
+#sub-list li:nth-child(1){
+    background-color:mediumseagreen;
+}
+#sub-list li:nth-child(2){
+    background-color: mediumseagreen;
+}
+.bottom-container img{
+    margin-left: 40%;
+}
