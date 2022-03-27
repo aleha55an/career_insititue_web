@@ -61,14 +61,14 @@
     display: flex;
     margin-left: 4%;
     border: 2px  red solid;
-    width: 40%;
+    width: 45%;
     height: 8vh;
    margin-top: 20px;
 }
 .top-below-right-container{
     justify-content: left;
     display: flex;
-    margin-left: 10%;
+    margin-left: 5%;
    
 }
 #find{
@@ -708,4 +708,163 @@ hr {
 .sub5-below-con img{
     width: 200px;
     height: 25vh;
+}
+
+
+/* ---belower main div-- */
+
+.belower-main-con{
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 3%;
+    display: flex;
+}
+.sub1-belower-con{
+    background-color: #EAEBEF;
+    width: 45%;
+    height: 25vh;
+    margin-left:2%;
+}
+.sub2-belower-con{
+    background-color: #EAEBEF;
+    width: 45%;
+    height: 25vh;
+    margin-left: 1%;
+
+}
+
+.sub1-belower-con img{
+    float: right;
+}
+.sub2-belower-con img{
+    float: right;
+}
+.sub1-belower-con h1{
+    padding-left:5%;
+    padding-top: 7%;
+    margin: 0%;
+}
+.sub1-belower-con h4{
+    padding-left:5%;
+    padding-top: 1%;
+    margin: 0%;
+}
+.sub1-belower-con button{
+   margin-left: 5%;
+   margin-top: 5%;
+   border: none;
+   font-weight: bold;
+}
+.sub2-belower-con h1{
+    padding-left:5%;
+    padding-top: 7%;
+    margin: 0%;
+}
+.sub2-belower-con h4{
+    padding-left:5%;
+    padding-top: 1%;
+    margin: 0%;
+}
+.sub2-belower-con button{
+   margin-left: 5%;
+   margin-top: 5%;
+   border: none;
+   font-weight: bold;
+}
+
+/* ---box-- */
+
+.box{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+}
+.box h1{
+    margin-left: 10%;
+}
+.box h3{
+    margin-left: 45%;
+}
+.box h2{
+    width: 13%;
+    background-color: red;
+    color: white;
+    margin-left: 1%;
+    height: 5vh;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+}
+.box2{
+    margin-left: 5%;
+    display: flex;
+    width: 95%;
+    margin-top: 2%;
+}
+.sub-box2 {
+    background-color: #EA3A3A;
+    width: 20%;
+    height: 40vh;
+}
+.sub-box2 h1{
+    padding-top: 10%;
+    padding-left: 10%;
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 0%;
+}
+.sub-box2 h4{
+    color: white;
+    margin: 0%;
+    padding-left: 10%;
+}
+.sub-box2 button{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 60%;
+    height: 7vh;
+    background-color: #EA3A3A;
+    border: 1px white solid;
+    color: white;
+}
+.sub1-box2{
+    
+    width: 15%;
+    height: 35vh;
+    margin-left: 2%;
+}
+.sub2-box2{
+    width: 15%;
+    height: 35vh;
+    margin-left: 2%;
+}
+.sub3-box2{
+    width: 15%;
+    height: 35vh;
+    margin-left: 2%;
+}
+.sub4-box2{
+    width: 15%;
+    height: 35vh;
+    margin-left: 2%;
+}
+
+.sub1-box2 img{
+    width: 200px;
+    height: 25vh;
+}
+.sub2-box2 img{
+  width: 200px;
+  height: 25vh;
+}
+.sub3-box2 img{
+  width: 200px;
+  height: 25vh;
+}
+.sub4-box2 img{
+  width: 200px;
+  height: 25vh;
+}
+.box2 img{
+    margin-left: 4%;
 }
