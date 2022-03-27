@@ -594,3 +594,118 @@ hr {
 #con-act{
     margin-left: 5%;
 }
+
+
+
+
+
+/* --three main divs-- in one section*/
+
+/* ---top main con-- */
+
+.top-main-con{
+    display: flex;
+    width: 90%;
+}
+.sub1-top-con{
+    
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub2-top-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub3-top-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub4-top-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub5-top-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub1-top-con img{
+      width: 200px;
+      height: 25vh;
+}
+.sub2-top-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub3-top-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub4-top-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub5-top-con img{
+    width: 200px;
+    height: 25vh;
+}
+
+/* --below main con-- */
+
+
+.below-main-con{
+    display: flex;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.sub1-below-con{
+    
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub2-below-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub3-below-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub4-below-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub5-below-con{
+    width: 15%;
+    height: 35vh;
+    margin-left: 6%;
+}
+.sub1-below-con img{
+      width: 200px;
+      height: 25vh;
+}
+.sub2-below-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub3-below-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub4-below-con img{
+    width: 200px;
+    height: 25vh;
+}
+.sub5-below-con img{
+    width: 200px;
+    height: 25vh;
+}
