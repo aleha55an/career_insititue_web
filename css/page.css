@@ -215,7 +215,7 @@ button{
     overflow: hidden;
 }
 
-.sub-inner-left-container button::before {
+/* .sub-inner-left-container button::before {
     content: "";
     position: absolute;
     width: 5%;
@@ -236,7 +236,7 @@ button{
     top: 350px;left: 500px;
 
     /* transform: rotate(50deg); */
-}
+} */
 
 .sub-inner-right-container{
     padding-top: 5%;
@@ -997,7 +997,7 @@ hr {
 .lp-feature1{
     width: 20%;
     height: 20vh;
-    margin-left: 185px;
+    margin-left: 100px;
     /* background-color: red; */
     display: flex;
 }
@@ -1039,7 +1039,7 @@ hr {
 /* ------Footer---- */
 
 .footer-box{
-    /* background-color: #E93939; */
+    background-color: #E93939;
     width: 100%;
     display: flex;
     height: 70vh;
@@ -1052,11 +1052,14 @@ hr {
     width: 50%;
     height: 70vh;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 .footer-box-R{
-    background-color:black;
+    background-color:#E93939;
     width: 50%;
     height: 70vh;
+    
     color: white;
 }
 .footer-box-L h1{
@@ -1071,3 +1074,172 @@ hr {
     padding-left: 6%;
     font-weight: normal;
 }
+.footer-box-R h2{
+    padding-top: 5%;
+    margin-bottom: 1%;
+    /* padding-top: 5%; */
+    /* padding-left: 6%; */
+    font-weight: normal;
+}
+.footer-box-R h3{
+    margin-top: 2%;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: 0%;
+} */
+ .footer-box-R h4{
+    margin-top: 1%;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: 0%;
+}
+#mail{
+    margin-top: 2%;
+    width:55%;
+    height: 8vh;
+    font-size: larger;
+    padding-left: 20px;
+    display: block;
+}
+#txtbox{
+    margin-top: 2%;
+    width:60%;
+    height: 7vh;
+    font-size: larger;
+    padding-left: 20px;
+    display: block;
+}
+#cap{
+    margin-top: 2%;
+   
+} 
+.fb-L-sub{
+     width: 30%;
+     height: 8vh;
+     background-color: rgb(185, 175, 175);
+     margin-left: 6%;
+     color: black;
+     margin-top: 2%;
+     display: flex;
+     
+     
+}
+.fb-L-sub2 p{
+    margin-top: 5px;
+    margin-left: 15px;
+    
+}
+
+.fb-L-sub1 img{
+    width: 100%;
+    height: 8vh;
+}
+
+
+.back-box11{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    height: 60vh;
+}
+.back-box11 h1{
+    font-size: large;
+    font-weight: normal;
+}
+.back-box11 p{
+    font-size: medium;
+    font-weight: normal;
+}
+.back-box11 h5{
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.back-box11 h3{
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+}
+.back-box11 h4{
+    
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-left: 0;
+}
+.back-box11-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 40px;
+}
+.back-box11-content1{
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    padding:40px;
+    color: white;
+}
+.back-box11-content101{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+.back-box11-content102{
+    width: 50%;
+    margin-top: 0%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.back-box12{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 38, 38);
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+.back-box12 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.back-box12 ul li{
+    padding-left:50px ;
+    color: white;
+    justify-content: center;
+}
+#agent-icon{
+    margin-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: #E93939;
+}
+
+.back-box13{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+padding-top: 3%;
+    justify-content: center;
+    background-color: rgb(39, 38, 38);
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
