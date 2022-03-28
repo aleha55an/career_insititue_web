@@ -138,6 +138,7 @@
     margin-left: 0px;
    
 }
+
 #inner-list li{
     padding-right: 20px;
 
@@ -868,3 +869,13 @@ hr {
 .box2 img{
     margin-left: 4%;
 }
+
+
+/* ------Footer---- */
+
+/* .footer-box{
+    background-color: #E93939;
+    width: 85%;
+    height: 80vh;
+    margin-left: 10%;
+} */
