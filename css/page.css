@@ -44,6 +44,10 @@
     padding-left: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
+#hz{
+   margin-left: 0%;
+   margin-right: 0%;
+}
 .top-below-container{
     display: flex;
     margin-top: 0%;
@@ -64,6 +68,7 @@
     width: 45%;
     height: 8vh;
    margin-top: 20px;
+  
 }
 .top-below-right-container{
     justify-content: left;
@@ -74,6 +79,7 @@
 #find{
    border: none;
     width: 250px;
+
 }
 #contact{
     padding-left: 10%;
@@ -81,6 +87,7 @@
 #cat{
     border: none;
     padding-left: 1%;
+    margin-right: 4%;
 }
 #wish{
     padding-left: 10%;
@@ -173,6 +180,8 @@
 .sub-inner-left-container{
     padding-top: 10%;
     padding-left:25%;
+    position: relative;
+    
 }
 .sub-inner-left-container p{
     font-size:x-large;
@@ -199,7 +208,36 @@
     padding: 0;margin-top: 30px;
     background-color: white;
     display: block;
+    /* position: relative; */
+    overflow: hidden;
 }
+button{
+    overflow: hidden;
+}
+
+.sub-inner-left-container button::before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 150px;
+    background-color: aqua;
+    top: 280px;left: 310px;
+   /* left: 90;top: 90; */
+    transform: rotate(50deg);
+    transition: all 0.5s linear;
+}
+
+.sub-inner-left-container button:hover:before {
+    content: "";
+    position: absolute;
+    width: 5%;
+    height: 150px;
+    /* background-color: rgb(0, 0, 0); */
+    top: 350px;left: 500px;
+
+    /* transform: rotate(50deg); */
+}
+
 .sub-inner-right-container{
     padding-top: 5%;
     margin-left: 5%;
@@ -247,27 +285,27 @@
     display: flex;
 }
 .child1-middle-container{
-    width: 25%;
+    width: 22.5%;
     height: 15vh;
     font-size: large;
     border: 1px solid grey;
 }
 .child2-middle-container{
-    width: 25%;
+    width: 22.5%;
     height: 15vh;
     margin-left: 2%;
     font-size: large;
     border: 1px solid grey;
 }
 .child3-middle-container{
-    width: 25%;
+    width: 22.5%;
     height: 15vh;
     margin-left: 2%;
     font-size: large;
     border: 1px solid grey;
 }
 .child4-middle-container{
-    width: 25%;
+    width: 22.5%;
     height: 15vh;
     margin-left: 2%;
     font-size: large;
@@ -456,11 +494,11 @@ span {
     float: right;
     font-size: medium;
     margin-top: 0%;
-    margin-right: 5%;
+    margin-right: 3.5%;
 }
 hr {
     margin-left: 20%;
-    margin-right: 13%; 
+    margin-right: 11%; 
 }
 
 
@@ -473,15 +511,15 @@ hr {
 
 .child1-inside-container{
     border: 2px red solid;
-    width: 45%;
+    width: 47.5%;
     height: 50vh;
     margin-top: 2%;
 }
 .child2-inside-container{
     border: 2px red solid;
-    width: 45%;
+    width: 47.5%;
     height: 50vh;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 2%;
 }
 #img1{
@@ -607,32 +645,33 @@ hr {
 .top-main-con{
     display: flex;
     width: 90%;
+    margin-top: 2%;
 }
 .sub1-top-con{
     
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 .sub2-top-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub3-top-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub4-top-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub5-top-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub1-top-con img{
       width: 200px;
@@ -668,27 +707,27 @@ hr {
     
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 5%;
 }
 .sub2-below-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub3-below-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub4-below-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub5-below-con{
     width: 15%;
     height: 35vh;
-    margin-left: 6%;
+    margin-left: 6.5%;
 }
 .sub1-below-con img{
       width: 200px;
@@ -715,20 +754,20 @@ hr {
 /* ---belower main div-- */
 
 .belower-main-con{
-    width: 90%;
-    margin-left: 7%;
+    width: 95%;
+    margin-left: 4.5%;
     margin-top: 3%;
     display: flex;
 }
 .sub1-belower-con{
     background-color: #EAEBEF;
-    width: 45%;
+    width: 48%;
     height: 25vh;
-    margin-left:2%;
+    margin-left:0%;
 }
 .sub2-belower-con{
     background-color: #EAEBEF;
-    width: 45%;
+    width: 48%;
     height: 25vh;
     margin-left: 1%;
 
@@ -781,23 +820,23 @@ hr {
     margin-top: 5%;
 }
 .box h1{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .box h3{
-    margin-left: 45%;
+    margin-left: 56.5%;
 }
 .box h2{
     width: 13%;
     background-color: red;
     color: white;
-    margin-left: 1%;
-    height: 5vh;
+    margin-left: 2%;
+    height: 4vh;
     text-align: center;
     font-size: large;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .box2{
-    margin-left: 5%;
+    margin-left: 4.5%;
     display: flex;
     width: 95%;
     margin-top: 2%;
@@ -805,7 +844,7 @@ hr {
 .sub-box2 {
     background-color: #EA3A3A;
     width: 20%;
-    height: 40vh;
+    height: 35vh;
 }
 .sub-box2 h1{
     padding-top: 10%;
@@ -832,22 +871,22 @@ hr {
     
     width: 15%;
     height: 35vh;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 .sub2-box2{
     width: 15%;
     height: 35vh;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 .sub3-box2{
     width: 15%;
     height: 35vh;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 .sub4-box2{
     width: 15%;
     height: 35vh;
-    margin-left: 2%;
+    margin-left: 4%;
 }
 
 .sub1-box2 img{
@@ -866,16 +905,169 @@ hr {
   width: 200px;
   height: 25vh;
 }
+.sub1-box2 h4{
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.sub2-box2 h4{
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.sub3-box2 h4{
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.sub4-box2 h4{
+    display: inline;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.sub1-box2 p{
+    
+    padding-left: 5%;
+}
+.sub2-box2 p{
+    
+    padding-left: 5%;
+}
+.sub3-box2 p{
+
+    padding-left: 5%;
+}
+.sub4-box2 p{
+    
+    padding-left: 5%;
+}
 .box2 img{
     margin-left: 4%;
 }
 
 
+/* ---feature box-- */
+
+.feature-box{
+    margin-left: 4.5%;
+    width: 95%;
+    margin-top: 3%;
+    display: flex;
+}
+.sub2-feature-box{
+    margin-left: 18%;
+}
+.sub3-feature-box{
+    margin-left: 16%;
+}
+.sub4-feature-box{
+    margin-left: 14.5%;
+}
+
+
+/* ---feature detail box-- */
+
+
+.feature-detail-box1{
+    margin-left: 4.5%;
+    width: 95%;
+    margin-top: 1%;
+    display: flex;
+}
+.bs-feature1{
+    width: 20%;
+    height: 20vh;
+    /* background-color: #EA3A3A; */
+    display: flex;
+}
+.sp-feature1{
+    width: 20%;
+    height: 20vh;
+    margin-left: 7%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.fp-feature1{
+    width: 20%;
+    height: 20vh;
+    margin-left: 180px;
+    /* background-color: black; */
+    display: flex;
+}
+.lp-feature1{
+    width: 20%;
+    height: 20vh;
+    margin-left: 185px;
+    /* background-color: red; */
+    display: flex;
+}
+
+#fea1-p{
+   padding-left: 15%;
+   padding-top: 5%;
+   font-weight: bolder;
+   font-size: 18px;
+   /* margin-bottom: 0%; */
+}
+
+.bs-feature1-R h3 {
+   padding-left: 15%;
+   padding-top: 0%;
+   margin-top: 0%;
+   font-weight: bolder;
+   font-size: large;
+}
+
+
+.bs-feature1-L img{
+    width:120px ;
+    height: 17vh;
+    margin-top: 8%;
+}
+
+
+
+
+
+
+
+/* .bs-feature1 p{
+    margin-left: 30px;
+    margin-right: 10px;
+} */
+
 /* ------Footer---- */
 
-/* .footer-box{
+.footer-box{
+    /* background-color: #E93939; */
+    width: 100%;
+    display: flex;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+.footer-box-L{
     background-color: #E93939;
-    width: 85%;
-    height: 80vh;
-    margin-left: 10%;
-} */
+    width: 50%;
+    height: 70vh;
+    color: white;
+}
+.footer-box-R{
+    background-color:black;
+    width: 50%;
+    height: 70vh;
+    color: white;
+}
+.footer-box-L h1{
+    padding-top: 5%;
+    padding-left: 6%;
+    margin-bottom: 2%;
+}
+.footer-box-L h2{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    /* padding-top: 5%; */
+    padding-left: 6%;
+    font-weight: normal;
+}
