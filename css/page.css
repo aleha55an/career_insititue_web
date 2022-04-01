@@ -1252,11 +1252,290 @@ hr {
 
 /* -----media screen--- */
 
- @media screen And (max-width:1400px) {
-   
+
+@media screen And (max-width:1225px) {
+    .sub-inner-left-container button{
+        width: 40%;
+        height: 6vh;
+        padding: 0;margin-top: 3px;
+        padding-top: 0% !important;
+    }
+}
+@media screen And (max-width:1075px) {
+    #sub-img1{
+        width: 70px;
+        height: auto;
+        margin-top: 6%;
+        padding: 0%;
+      
+    }
+    #sub-img2{
+        width: 50px;
+        height: auto;
+        margin-top: 6%;
+        margin-left: 5%;
+        padding: 0%;
+    }
+
+}
+@media screen And (max-width:1120px) {
+    #sub-img1{
+        width: 60px;
+        height: auto;
+        margin-top: 3%;
+        padding: 0%;
+      
+    }
+    #sub-img2{
+        width: 40px;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 3%;
+        padding: 0%;
+    }
+    .child2-middle-container{
+        margin-left: 1%;
+      
+    }
+    .child3-middle-container{
+      
+        margin-left: 2%;
+    } 
+    .child4-middle-container{
+        margin-left: 2%;
+    }
+    
+    #child1-para1{
+        padding-left: 40px;
+      padding-top: 20px; 
+    }
+    #child1-para2{
+        padding-left: 40px;
+      padding-top: 50px; 
+      position: absolute; 
+    }
+    #child1-icon{
+        padding-top: 30px;
+        padding-left: 10px;
+        position: absolute;
+      }
+      #child2-para1{
+        padding-left: 40px;
+      padding-top: 20px; 
+     
+    }
+    #child2-para2{
+        padding-left: 30px;
+      padding-top: 40px; 
+    }
+    #child2-icon{
+        padding-top: 20px;
+        padding-left: 10px;
+        position: absolute;
+      }
+}
+@media screen And (max-width:1060px) {
+    #sub-img1{
+        width: 60px;
+        height: auto;
+        margin-top: 3%;
+        padding: 0%;
+      
+    }
+    #sub-img2{
+        width: 40px;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 3%;
+        padding: 0%;
+    }
+
+}
+ @media screen And (max-width:999px) {
+    .sub-inner-left-container button{
+        width: 40%;
+        height: 6vh;
+        padding: 0;margin-top: 3px;
+        padding-top: 0% !important;
+    }
+    .sub-inner-left-container h4{
+        font-size: 30px;
+        font-weight: 500;padding: 2px;margin: 0;
+        padding-top: 0% !important;
+    }
+    .sub-inner-left-container h6{
+        font-size: large;
+        padding: 1px;margin: 0;
+        padding-top: 0% !important;
+    }
+    .sub-inner-left-container p{
+        font-size:large;
+        color: rgb(252, 58, 58);
+        font: bold;
+        
+    }
+    .sub-inner-left-container h1{
+        font-size:30px;
+        padding: 0;margin:0;
     }
 
 
+    #child1-para1{
+        padding-left: 50px;
+      padding-top: 30px; 
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: large;
+      font-weight: bolder;
+      position: absolute;
+    }
+    #child1-para2{
+        padding-left: 60px;
+      padding-top: 0px; 
+      position: absolute;
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: large;
+      font-weight:lighter;
+      
+    }
+    #child1-icon{
+        padding-top: 20px;
+        padding-left: 0px;
+        position: absolute;
+      }
+      #child2-para1{
+        padding-left: 70px;
+      padding-top: 20px; 
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: large;
+      font-weight: bolder;
+      position: absolute;
+    }
+    #child2-para2{
+        padding-left: 70px;
+      padding-top: 20px; 
+      position: absolute;
+      margin: 0%;
+       /* padding-bottom: 0%; */
+      font-size: large;
+      font-weight:lighter;
+      
+    }
+    #child2-icon{
+        padding-top: 20px;
+        padding-left: 20px;
+        position: absolute;
+      }
+
+    }
 
 
+@media screen And (max-width:1030px) {
+    #child1-para1{
+        padding-left: 30px;
+      padding-top: 30px; 
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: medium;
+      font-weight: bold;
+      position: absolute;
+    }
+    #child1-para2{
+        padding-left: 40px;
+      padding-top: 50px; 
+      position: absolute;
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: medium;
+      font-weight:lighter;
+      
+    }
+    #child1-icon{
+        padding-top: 30px;
+        padding-left: 10px;
+        position: absolute;
+      }
+      #child2-para1{
+        padding-left: 50px;
+      padding-top: 30px; 
+      margin: 0%; 
+       /* padding-bottom: 0%; */
+      font-size: medium;
+      font-weight: bolder;
+      position: absolute;
+    }
+    #child2-para2{
+        padding-left: 50px;
+      padding-top: 50px; 
+      position: absolute;
+      margin: 0%;
+       /* padding-bottom: 0%; */
+      font-size: medium;
+      font-weight:lighter;
+      
+    }
+    #child2-icon{
+        padding-top: 40px;
+        padding-left: 10px;
+        position: absolute;
+      }
 
+}
+
+
+    @media screen And (max-width:961px) {
+        .sub-inner-left-container button{
+            width: 40%;
+            height: 4vh;
+            padding: 0;margin-top: 2px;
+            padding-top: 0% !important;
+            font-size: 10px;
+        }
+    }
+
+    @media screen And (max-width:840px) {
+        .sub-inner-left-container button{
+            width: 40%;
+            height: 4vh;
+            padding: 0;margin-top: 2px;
+            padding-top: 0% !important;
+            font-size: 10px;
+        }
+    }
+
+    @media screen And (max-width:780px) {
+        #sub-img1{
+            width: 50px;
+            height: auto;
+            margin-top: 3%;
+            padding: 0%;
+          
+        }
+        #sub-img2{
+            width: 30px;
+            height: auto;
+            margin-top: 3%;
+            margin-left: 3%;
+            padding: 0%;
+        }
+    
+    }
+    @media screen And (max-width:680px) {
+        #sub-img1{
+            width: 50px;
+            height: auto;
+            margin-top: 0%;
+            padding: 0%;
+          
+        }
+        #sub-img2{
+            width: 30px;
+            height: auto;
+            margin-top: 0%;
+            margin-left: 1%;
+            padding: 0%;
+        }
+    
+    }
