@@ -7,18 +7,65 @@
     <title>Assignments Link</title>
 </head>
 <style>
-    div{
-      margin-top: 3%;
-      margin-left: 40%;
+    *{
+        margin: 0;
+        padding: 0;
     }
-    div button{
+    .head{
+       height: 150px; 
+       line-height: 70px;
+       font-size: x-large;
+      text-align: center;
+      color: rgb(32, 31, 31);
+      background-color: rgb(173, 166, 166);
+    }
+    .head-box{
+        background-color: rgb(224, 220, 220);
+        height: 100px;
+        color: rgb(32, 31, 31);
+        display: flex;
+    }
+    .Assign-head{
+        color: rgb(32, 31, 31);
+        text-align: left;
+        font-size: larger;
+        padding-left: 5%;
+        line-height: 100px;
+    }
+    .template-head{
+        color: rgb(32, 31, 31);
+        margin-left: 15%;
+        text-align: center;
+        font-size: larger;
+        padding-left: 5%;
+        line-height: 100px;
+    }
+    .link-box{
+        display: flex;
+    }
+    .Assign-link{
+      float: left;
+      margin-top: 1%;
+      width: 30%;
+      margin-left: 5%;
+    }
+    .templates-link{
+      margin-top: 1%;
+      width: 30%;
+      margin-left: 7%;
+    }
+    .Assign-link button,.templates-link button{
         display: block;
-       width: 30%;
+        background-color: rgb(173, 166, 166);
+       width:60%;
+       height: 30px;
        margin-top: 2%;
-       font-size: large;
+       font-size: larger;
     }
-    button:hover{
-        background-color: red;
+    button:hover , a:hover{
+        background-color: rgb(201, 37, 37);
+        color: white;
+        cursor: pointer;
     }
     a{
         text-decoration: none;
@@ -26,10 +73,19 @@
     }
 </style>
 <body>
+    <div class="head">
     <h1>Name:Ali Hassan</h1>
-    <h1>Batch-Morning</h1>
-    <div>
-        <h1>Assignments Link</h1>
+    <h1>Batch-Morning</h1></div>
+    <div class="head-box">
+    <div class="Assign-head">
+        <h1>Assignments Links</h1></div>
+    <div class="template-head">
+        <h1>Templates</h1></div>
+
+
+    </div>    
+    <div class="link-box"> 
+        <div class="Assign-link">
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/Blog.html">Blog</a></button>
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/Blog-Assgin.html">Blog-Assign</a></button>
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/Blog-Assgin2.html">Blog-Assign2</a></button>
@@ -40,7 +96,11 @@
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/page.html">Index Page</a></button>
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/nav-bar.html">Navigation-Bar</a></button>
         <button class="btn"><a href="https://aleha55an.github.io/career_insititue_web/html/Table.html">Table</a></button>
-
+       
+    </div>
+    <div class="templates-link">
+        <button class="btn"><a href="https://aleha55an.github.io/Education-website/Html/Index.html">Education Template</a></button>
+    </div>
 </div>
 </body>
 </html>
