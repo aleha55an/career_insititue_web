@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar--color:#202140;
+}
+.top-bar strong{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 0%;
+}
+.top-bar p{
+    text-transform: uppercase;
+    font-size: larger;
+    line-height: 0%;
+}
+.top-bar-right i:nth-child(1){
+    margin-right: 5%;
+}
+.top-bar-right i {
+    height: 40px;
+    width:40px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 1px gray;
+  }
+.navbar-content li a{
+    font-size: x-large;
+    color: white !important;
+}
+.navbar-content li{
+    margin-left: 3%;
+}
+#home{
+    background-color: rgb(201, 201, 57) !important;
+}
+.navbar-content li:hover{
+    background-color: rgb(201, 201, 57)
+}
+.navbar-search input,.navbar-search button{
+    font-size: x-large;
+}
+.navbar{
+    background-color: #202140 !important;
+}
+#dropdown-menu{
+    background-color: rgb(201, 201, 57) !important;
+}
+#dropdown-menu a:hover{
+    background-color: black;
+}
+
+.sec-1{
+    margin-top: 5%;
+}
+.title-a {
+     font-size: 45px;
+     font-weight: 600;
+}
+.subtitle-a{
+    font-size: larger;
+}
+.property-box i{
+    font-size: 80px;
+    
+}
+.property-box .box-1{
+    border: 1px solid gray;
+    height: 20vh;
+    padding: 40px !important;
+}
+.property-box .box-1,.property-box .box-2,.property-box .box-3,.property-box .box-4,.property-box .box-5,.property-box .box-6{
+    border: 1px solid gray;
+    height: 20vh;
+    
+}
